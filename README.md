@@ -1,4 +1,4 @@
-### Debian Docker nginx image for web testing
+### Debian Docker nginx image for web & network testing
 
 - latest [(nginx-test/Dockerfile)](https://github.com/lollipopman/nginx-test)
 
