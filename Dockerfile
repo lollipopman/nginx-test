@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
   net-tools \
   nginx-light \
   procps \
-  tcpdump
+  tcpdump \
+  traceroute
 COPY nginx.conf /etc/nginx/nginx.conf
 CMD ["/usr/sbin/nginx"]
 EXPOSE 80
